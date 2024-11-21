@@ -1,7 +1,7 @@
 function sum(a) {
-    sum = a[0];
+    total = a[0];
     for(var i = 1; i < a.length; i++) {
-        sum += a[i];
+        total += a[i];
     }
-    return sum;
+    return total;
 }
